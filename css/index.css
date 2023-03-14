@@ -276,21 +276,94 @@ h2{
     margin-top: 70px;
 }
 .feedback{
-    /* background-color: #4F5665;
-    height: 200px; */
-    display: flex;
+    /* background-color: #4F5665; */
+    
+    display: flex; 
     justify-content: space-around;
     
 }
 .robert, .jou, .christy{
     height: 230px;
     width: 400px;
+   
     border: 3px solid red;
     border-radius: 10px;
     margin-top: 70px;
     
 }
+.robert{
+    /* display: flex; */
+    position: relative;
+    background-color:#FFF;
+    justify-content: space-around;
+}
+.robert .robimg img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 20px 20px;
+}
+ .jouimg img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 20px 20px;
+}
+.christy .christyimg img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 20px 20px;
+}
+/* .name{
+    margin: -103px 110px;
+} */
+.robnam, .jounam, .christynam{
+    display: flex;
+    gap: 10px;
+}
+.robcontent, .joucontent, .christycontent{
+    text-align: center;
 
+}
+
+.robstar, .joustar, .christystar{
+     color: #FEA250;
+
+}
+
+.robrating, .jourating, .christyrating{
+    
+    display: flex;
+    gap: 10px;
+    margin: -150px 300px;
+}
+/* .rating i{
+    margin: -100px 40px;
+} */
+.robname, .jouname, .christyname{
+    margin: 33px -5px;
+    line-height: 22px;
+}
+
+
+
+/* .name, .rating{
+    margin: 20px 20px;
+}
+.name{
+    margin-left: -50px   ;
+} */
+/* .name h5{
+font-size: 12px;
+padding: 10px 10px;
+} */
+.robrating{
+    padding: 10px;
+}
 .subscribe{
     background-color: #FFFFFF;
     color: red;
